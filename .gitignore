@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual/Conda local env folders
+.venv/
+venv/
+env/
+.env
+
+# Local IDE settings
+.vscode/
+.idea/
+
+# Book input/output data (large/local files)
+raw_book/**
+txt_book/**
+
+# Allow keeping empty folders if needed
+!raw_book/.gitkeep
+!txt_book/.gitkeep
